@@ -1,0 +1,22 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightskyblue;
+}
+
+.coin{
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    background-color: yellow;
+
+    border: 10px solid rgb(255, 238, 0);
+    margin-top: 300px;
+    width: 150px;
+    height: 150px;
+    border-radius: 500000000px;
+    transition: 1.5s cubic-bezier(0,-0.01,0,1.46);
+}
+
+.coin{
+    transform: rotateX(1440deg);
+}
