@@ -7,17 +7,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<script src=""> 
-</script>
 
 <body>
-    <div class="coin">
-        <div class="side">
-        </div>
+    <div id="coin">
+        <!-- thx Levi -->
+        <img id="tails" src="BigCoinTailsSide.png" alt="tails">
+        <img id="heads" src="BigCoinHeadSide.png" alt="heads">
     </div>
-    <p><button type="button" onclick="">flip</button></p>
-    <div class="tally">
+    <button class="flipbutton" onclick="flip()">flip</button>
     </div>
+    <div id="talycontainer">
+        <p>tails:<span id="talytails">0</span></p>
+        <p>heads:<span id="talyheads">0</span></p>
+        <button class="resetbutton" onclick="reset()">reset</button>
+    </div>
+    <script src="index.js">
+    </script>
 </body>
 
 </html>
